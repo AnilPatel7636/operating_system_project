@@ -1,55 +1,52 @@
 Timestamp: 0
-Process Name: chrome
+Process Name: thunderbird
 ---------------------------------------------
-Memory Profile for PID: 10824
+Memory Profile for PID: 4855
 ---------------------------------------------
 Memory Type         | Usage (KB)
 ---------------------------------------------
-Virtual Memory      | 1212136264
-Resident Memory     | 284260
+Virtual Memory      | 3028376
+Resident Memory     | 368560
 Heap Allocated      | 0
 Heap Freed          | 0
 Heap Peak Usage     | 0
-Stack Size          | 200
+Stack Size          | 136
 ---------------------------------------------
 
 
 Timestamp: 1
 Inference: 
-Virtual memory increased.
-   The process is storing large datasets, buffers, or mapping files into memory.
-   Therefore, workload increased.
-Resident memory increased.
-   More physical memory (RAM) is being actively used by the application. 
+Resident memory decreased.
+   Pages in RAM are swapped out to disk (in systems with swap space) or memory is released and is no longer required.
 ---------------------------------------------
-Memory Profile for PID: 10824
+Memory Profile for PID: 4855
 ---------------------------------------------
 Memory Type         | Usage (KB)
 ---------------------------------------------
-Virtual Memory      | 1213774664
-Resident Memory     | 286308
+Virtual Memory      | 3028376
+Resident Memory     | 368132
 Heap Allocated      | 0
 Heap Freed          | 0
 Heap Peak Usage     | 0
-Stack Size          | 200
+Stack Size          | 136
 ---------------------------------------------
 
 
 Timestamp: 2
 Inference: 
-Virtual memory decreased.
-   The memory-mapped files or large allocations are being released.
+Resident memory decreased.
+   Pages in RAM are swapped out to disk (in systems with swap space) or memory is released and is no longer required.
 ---------------------------------------------
-Memory Profile for PID: 10824
+Memory Profile for PID: 4855
 ---------------------------------------------
 Memory Type         | Usage (KB)
 ---------------------------------------------
-Virtual Memory      | 1213772616
-Resident Memory     | 286308
+Virtual Memory      | 3028376
+Resident Memory     | 367512
 Heap Allocated      | 0
 Heap Freed          | 0
 Heap Peak Usage     | 0
-Stack Size          | 200
+Stack Size          | 136
 ---------------------------------------------
 
 
@@ -58,447 +55,37 @@ Inference:
 Virtual memory increased.
    The process is storing large datasets, buffers, or mapping files into memory.
    Therefore, workload increased.
+Resident memory increased.
+   More physical memory (RAM) is being actively used by the application. 
 ---------------------------------------------
-Memory Profile for PID: 10824
+Memory Profile for PID: 4855
 ---------------------------------------------
 Memory Type         | Usage (KB)
 ---------------------------------------------
-Virtual Memory      | 1213774664
-Resident Memory     | 286308
+Virtual Memory      | 3028408
+Resident Memory     | 370496
 Heap Allocated      | 0
 Heap Freed          | 0
 Heap Peak Usage     | 0
-Stack Size          | 200
+Stack Size          | 136
 ---------------------------------------------
 
 
 Timestamp: 4
 Inference: 
-Resident memory decreased.
-   Pages in RAM are swapped out to disk (in systems with swap space) or memory is released and is no longer required.
----------------------------------------------
-Memory Profile for PID: 10824
----------------------------------------------
-Memory Type         | Usage (KB)
----------------------------------------------
-Virtual Memory      | 1213774664
-Resident Memory     | 284336
-Heap Allocated      | 0
-Heap Freed          | 0
-Heap Peak Usage     | 0
-Stack Size          | 200
----------------------------------------------
-
-
-Timestamp: 5
-Inference: 
-Resident memory decreased.
-   Pages in RAM are swapped out to disk (in systems with swap space) or memory is released and is no longer required.
----------------------------------------------
-Memory Profile for PID: 10824
----------------------------------------------
-Memory Type         | Usage (KB)
----------------------------------------------
-Virtual Memory      | 1213774664
-Resident Memory     | 284256
-Heap Allocated      | 0
-Heap Freed          | 0
-Heap Peak Usage     | 0
-Stack Size          | 200
----------------------------------------------
-
-
-Timestamp: 6
-Inference: 
 Virtual memory decreased.
    The memory-mapped files or large allocations are being released.
-Resident memory decreased.
-   Pages in RAM are swapped out to disk (in systems with swap space) or memory is released and is no longer required.
 ---------------------------------------------
-Memory Profile for PID: 10824
+Memory Profile for PID: 4855
 ---------------------------------------------
 Memory Type         | Usage (KB)
 ---------------------------------------------
-Virtual Memory      | 1212136264
-Resident Memory     | 282508
+Virtual Memory      | 3028376
+Resident Memory     | 370496
 Heap Allocated      | 0
 Heap Freed          | 0
 Heap Peak Usage     | 0
-Stack Size          | 200
----------------------------------------------
-
-
-Timestamp: 7
-Inference: 
-Resident memory decreased.
-   Pages in RAM are swapped out to disk (in systems with swap space) or memory is released and is no longer required.
----------------------------------------------
-Memory Profile for PID: 10824
----------------------------------------------
-Memory Type         | Usage (KB)
----------------------------------------------
-Virtual Memory      | 1212136264
-Resident Memory     | 281104
-Heap Allocated      | 0
-Heap Freed          | 0
-Heap Peak Usage     | 0
-Stack Size          | 200
----------------------------------------------
-
-
-Timestamp: 8
-Inference: 
-Virtual memory increased.
-   The process is storing large datasets, buffers, or mapping files into memory.
-   Therefore, workload increased.
-Resident memory increased.
-   More physical memory (RAM) is being actively used by the application. 
----------------------------------------------
-Memory Profile for PID: 10824
----------------------------------------------
-Memory Type         | Usage (KB)
----------------------------------------------
-Virtual Memory      | 1213774664
-Resident Memory     | 282384
-Heap Allocated      | 0
-Heap Freed          | 0
-Heap Peak Usage     | 0
-Stack Size          | 200
----------------------------------------------
-
-
-Timestamp: 9
-Inference: 
-Virtual memory decreased.
-   The memory-mapped files or large allocations are being released.
-Resident memory decreased.
-   Pages in RAM are swapped out to disk (in systems with swap space) or memory is released and is no longer required.
----------------------------------------------
-Memory Profile for PID: 10824
----------------------------------------------
-Memory Type         | Usage (KB)
----------------------------------------------
-Virtual Memory      | 1213771760
-Resident Memory     | 270300
-Heap Allocated      | 0
-Heap Freed          | 0
-Heap Peak Usage     | 0
-Stack Size          | 200
----------------------------------------------
-
-
-Timestamp: 10
-Inference: 
-Resident memory decreased.
-   Pages in RAM are swapped out to disk (in systems with swap space) or memory is released and is no longer required.
----------------------------------------------
-Memory Profile for PID: 10824
----------------------------------------------
-Memory Type         | Usage (KB)
----------------------------------------------
-Virtual Memory      | 1213771760
-Resident Memory     | 269904
-Heap Allocated      | 0
-Heap Freed          | 0
-Heap Peak Usage     | 0
-Stack Size          | 200
----------------------------------------------
-
-
-Timestamp: 11
-Inference: 
-Resident memory increased.
-   More physical memory (RAM) is being actively used by the application. 
----------------------------------------------
-Memory Profile for PID: 10824
----------------------------------------------
-Memory Type         | Usage (KB)
----------------------------------------------
-Virtual Memory      | 1213771760
-Resident Memory     | 270032
-Heap Allocated      | 0
-Heap Freed          | 0
-Heap Peak Usage     | 0
-Stack Size          | 200
----------------------------------------------
-
-
-Timestamp: 12
-Inference: 
-Resident memory increased.
-   More physical memory (RAM) is being actively used by the application. 
----------------------------------------------
-Memory Profile for PID: 10824
----------------------------------------------
-Memory Type         | Usage (KB)
----------------------------------------------
-Virtual Memory      | 1213771760
-Resident Memory     | 270416
-Heap Allocated      | 0
-Heap Freed          | 0
-Heap Peak Usage     | 0
-Stack Size          | 200
----------------------------------------------
-
-
-Timestamp: 13
-Inference: 
-Resident memory increased.
-   More physical memory (RAM) is being actively used by the application. 
----------------------------------------------
-Memory Profile for PID: 10824
----------------------------------------------
-Memory Type         | Usage (KB)
----------------------------------------------
-Virtual Memory      | 1213771760
-Resident Memory     | 270928
-Heap Allocated      | 0
-Heap Freed          | 0
-Heap Peak Usage     | 0
-Stack Size          | 200
----------------------------------------------
-
-
-Timestamp: 14
-Inference: 
-Resident memory increased.
-   More physical memory (RAM) is being actively used by the application. 
----------------------------------------------
-Memory Profile for PID: 10824
----------------------------------------------
-Memory Type         | Usage (KB)
----------------------------------------------
-Virtual Memory      | 1213771760
-Resident Memory     | 271184
-Heap Allocated      | 0
-Heap Freed          | 0
-Heap Peak Usage     | 0
-Stack Size          | 200
----------------------------------------------
-
-
-Timestamp: 15
-Inference: 
-Resident memory increased.
-   More physical memory (RAM) is being actively used by the application. 
----------------------------------------------
-Memory Profile for PID: 10824
----------------------------------------------
-Memory Type         | Usage (KB)
----------------------------------------------
-Virtual Memory      | 1213771760
-Resident Memory     | 271312
-Heap Allocated      | 0
-Heap Freed          | 0
-Heap Peak Usage     | 0
-Stack Size          | 200
----------------------------------------------
-
-
-Timestamp: 16
-Inference: 
-Resident memory increased.
-   More physical memory (RAM) is being actively used by the application. 
----------------------------------------------
-Memory Profile for PID: 10824
----------------------------------------------
-Memory Type         | Usage (KB)
----------------------------------------------
-Virtual Memory      | 1213771760
-Resident Memory     | 273232
-Heap Allocated      | 0
-Heap Freed          | 0
-Heap Peak Usage     | 0
-Stack Size          | 200
----------------------------------------------
-
-
-Timestamp: 17
-Inference: 
-Resident memory decreased.
-   Pages in RAM are swapped out to disk (in systems with swap space) or memory is released and is no longer required.
----------------------------------------------
-Memory Profile for PID: 10824
----------------------------------------------
-Memory Type         | Usage (KB)
----------------------------------------------
-Virtual Memory      | 1213771760
-Resident Memory     | 269368
-Heap Allocated      | 0
-Heap Freed          | 0
-Heap Peak Usage     | 0
-Stack Size          | 200
----------------------------------------------
-
-
-Timestamp: 18
-Inference: 
-Resident memory decreased.
-   Pages in RAM are swapped out to disk (in systems with swap space) or memory is released and is no longer required.
----------------------------------------------
-Memory Profile for PID: 10824
----------------------------------------------
-Memory Type         | Usage (KB)
----------------------------------------------
-Virtual Memory      | 1213771760
-Resident Memory     | 267972
-Heap Allocated      | 0
-Heap Freed          | 0
-Heap Peak Usage     | 0
-Stack Size          | 200
----------------------------------------------
-
-
-Timestamp: 19
-Inference: 
-Resident memory decreased.
-   Pages in RAM are swapped out to disk (in systems with swap space) or memory is released and is no longer required.
----------------------------------------------
-Memory Profile for PID: 10824
----------------------------------------------
-Memory Type         | Usage (KB)
----------------------------------------------
-Virtual Memory      | 1213771760
-Resident Memory     | 265928
-Heap Allocated      | 0
-Heap Freed          | 0
-Heap Peak Usage     | 0
-Stack Size          | 200
----------------------------------------------
-
-
-Timestamp: 20
-Inference: 
-Virtual memory decreased.
-   The memory-mapped files or large allocations are being released.
-Resident memory decreased.
-   Pages in RAM are swapped out to disk (in systems with swap space) or memory is released and is no longer required.
----------------------------------------------
-Memory Profile for PID: 10824
----------------------------------------------
-Memory Type         | Usage (KB)
----------------------------------------------
-Virtual Memory      | 1213767660
-Resident Memory     | 264928
-Heap Allocated      | 0
-Heap Freed          | 0
-Heap Peak Usage     | 0
-Stack Size          | 200
----------------------------------------------
-
-
-Timestamp: 21
-Inference: 
-Virtual memory decreased.
-   The memory-mapped files or large allocations are being released.
-Resident memory decreased.
-   Pages in RAM are swapped out to disk (in systems with swap space) or memory is released and is no longer required.
----------------------------------------------
-Memory Profile for PID: 10824
----------------------------------------------
-Memory Type         | Usage (KB)
----------------------------------------------
-Virtual Memory      | 1212129260
-Resident Memory     | 263572
-Heap Allocated      | 0
-Heap Freed          | 0
-Heap Peak Usage     | 0
-Stack Size          | 200
----------------------------------------------
-
-
-Timestamp: 22
-Inference: 
-Resident memory increased.
-   More physical memory (RAM) is being actively used by the application. 
----------------------------------------------
-Memory Profile for PID: 10824
----------------------------------------------
-Memory Type         | Usage (KB)
----------------------------------------------
-Virtual Memory      | 1212129260
-Resident Memory     | 266900
-Heap Allocated      | 0
-Heap Freed          | 0
-Heap Peak Usage     | 0
-Stack Size          | 200
----------------------------------------------
-
-
-Timestamp: 23
-Inference: 
-Virtual memory increased.
-   The process is storing large datasets, buffers, or mapping files into memory.
-   Therefore, workload increased.
-Resident memory increased.
-   More physical memory (RAM) is being actively used by the application. 
----------------------------------------------
-Memory Profile for PID: 10824
----------------------------------------------
-Memory Type         | Usage (KB)
----------------------------------------------
-Virtual Memory      | 1213767660
-Resident Memory     | 268180
-Heap Allocated      | 0
-Heap Freed          | 0
-Heap Peak Usage     | 0
-Stack Size          | 200
----------------------------------------------
-
-
-Timestamp: 24
-Inference: 
-Resident memory decreased.
-   Pages in RAM are swapped out to disk (in systems with swap space) or memory is released and is no longer required.
----------------------------------------------
-Memory Profile for PID: 10824
----------------------------------------------
-Memory Type         | Usage (KB)
----------------------------------------------
-Virtual Memory      | 1213767660
-Resident Memory     | 266940
-Heap Allocated      | 0
-Heap Freed          | 0
-Heap Peak Usage     | 0
-Stack Size          | 200
----------------------------------------------
-
-
-Timestamp: 25
-Inference: 
-Resident memory decreased.
-   Pages in RAM are swapped out to disk (in systems with swap space) or memory is released and is no longer required.
----------------------------------------------
-Memory Profile for PID: 10824
----------------------------------------------
-Memory Type         | Usage (KB)
----------------------------------------------
-Virtual Memory      | 1213767660
-Resident Memory     | 264900
-Heap Allocated      | 0
-Heap Freed          | 0
-Heap Peak Usage     | 0
-Stack Size          | 200
----------------------------------------------
-
-
-Timestamp: 26
-Inference: 
-Virtual memory decreased.
-   The memory-mapped files or large allocations are being released.
-Resident memory decreased.
-   Pages in RAM are swapped out to disk (in systems with swap space) or memory is released and is no longer required.
----------------------------------------------
-Memory Profile for PID: 10824
----------------------------------------------
-Memory Type         | Usage (KB)
----------------------------------------------
-Virtual Memory      | 1212129260
-Resident Memory     | 263476
-Heap Allocated      | 0
-Heap Freed          | 0
-Heap Peak Usage     | 0
-Stack Size          | 200
+Stack Size          | 136
 ---------------------------------------------
 
 
